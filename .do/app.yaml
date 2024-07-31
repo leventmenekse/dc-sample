@@ -1,0 +1,8 @@
+name: dc-html
+static_sites:
+- environment_slug: html
+  github:
+    branch: main
+    deploy_on_push: true
+    repo: leventmenekse/dc-html
+  name: dc-html
